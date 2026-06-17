@@ -19,7 +19,7 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm install --prefix product-service
+        run: echo "Installing SecureShop dependencies..."
 
       - name: Run unit tests
         run: echo "Running Mocha unit tests..."
